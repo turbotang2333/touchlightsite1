@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>扶光工作室 - 创新VR/AR体验</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div id="loader">
+        <div class="magic-circle"></div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo magic-text">扶光工作室</div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="magic.html">气与魔法</a></li>
+                <li><a href="about.html">关于扶光</a></li>
+                <li><a href="contact.html">联系扶光</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="parallax-container">
+            <div class="parallax-layer layer-1" data-speed="0.2"></div>
+            <div class="parallax-layer layer-2" data-speed="0.5"></div>
+            <div class="parallax-layer layer-3" data-speed="0.8"></div>
+        </div>
+        <section id="home" class="fullscreen-section">
+            <div class="hero-video">
+                <video autoplay loop muted playsinline>
+                    <source src="videos/vr-demo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1 class="animated-text magic-text">扶光工作室</h1>
+                <p class="tagline animated-text">身临其境的VR/AR魔法体验</p>
+                <a href="magic.html" class="cta-button float-element">探索魔法世界</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 扶光工作室 版权所有</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
